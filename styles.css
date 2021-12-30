@@ -251,34 +251,44 @@ body {
     flex-wrap: wrap;
 }
 
-@media (min-width: 0px) {
+@media (max-width: 767px) {
     .wrapper {
         width: 80%;
     }
     .wrapper i {
         left: 10px;
     }
+    .second{
+        justify-content: space-around;
+        flex-wrap: nowrap;
+    }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .wrapper {
         width: 80%;
     }
     .wrapper i {
         left: 10px;
     }
+    .second{
+        justify-content: space-around;
+    }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     .wrapper {
         width: 90%;
     }
     .wrapper i {
         left: 10px;
     }
+    .second{
+        justify-content: space-around;
+    }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1399px){
     .wrapper {
         width: 560px;
     }
