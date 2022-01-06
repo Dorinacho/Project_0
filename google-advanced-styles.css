@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+  box-sizing: unset;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.top-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px 0 0;
+  width: 99%;
+}
+
+#logo img {
+  height: 26px;
+  width: 76px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 15px;
+}
+
+.top-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-div .nine-dots {
+  display: block;
+  max-width: 17px;
+  max-height: 17px;
+  padding: 10px 15px 10px 10px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.top-div span {
+  position: absolute;
+  margin-right: min(59px, 59px);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: none;
+}
+
+.top-div .nine-dots:hover + span {
+  display: block;
+}
+
+.top-div .user-image {
+  display: block;
+  max-width: 39px;
+  max-height: 39px;
+  padding: 5px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.appbar {
+  font-size: 20px;
+  margin: 25px 35px 15px 35px;
+  color: #d93025;
+  display: flex;
+  align-items: flex-start;
+}
+
+.appbar label {
+  width: 92vw;
+  margin-left: 10px;
+}
+
+.gray-line {
+  width: 100%;
+  border-bottom: 1px solid #ebebeb;
+}
+
+@media (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+
+@media (min-width: 1400px) {
+}
