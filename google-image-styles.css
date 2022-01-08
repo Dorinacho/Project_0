@@ -24,6 +24,20 @@ body {
   width: 99%;
 }
 
+.top-text {
+  padding-right: 15px;
+  font-size: 13px;
+}
+
+.top-text a {
+  padding: 5px;
+  text-decoration: none;
+  color: #212121;
+}
+
+.top-text a:hover {
+  text-decoration: underline;
+}
 .top-images {
   display: flex;
   justify-content: center;
