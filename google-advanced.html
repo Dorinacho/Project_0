@@ -47,5 +47,33 @@
       <label>Advanced Search</label>
     </div>
     <div class="gray-line"></div>
+    <form action="https://google.com/search">
+      <div class="subtitle"><span>Find pages with...</span></div>
+      <div class="upper-search">
+        <div class="row">
+          <div class="small-text">all these words:</div>
+          <input type="text" autofocus="autofocus" name="as_q">
+        </div>
+        <div class="row">
+          <div class="small-text">this exact word or phrase:</div>
+          <input type="text" autofocus="autofocus" name="as_epq">
+        </div>
+        <div class="row">
+          <div class="small-text">any of these words:</div>
+          <input type="text" autofocus="autofocus" name="as_oq">
+        </div>
+        <div class="row">
+          <div class="small-text">none of these words:</div>
+          <input type="text" autofocus="autofocus" name="as_eq">
+        </div>
+        <div class="row">
+          <div class="small-text">none of these words:</div>
+          <input type="text" id="small-input">
+          <div class="small-text" id="to"> to </div>
+          <input type="text" id="small-input">
+        </div>
+        <input type="submit" class="btn btn-light" value="Google Search">
+      </div>
+    </form>
   </body>
 </html>

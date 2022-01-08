@@ -32,7 +32,7 @@ body {
   padding-left: 15px;
 }
 
-#right-top-div{
+#right-top-div {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -94,7 +94,7 @@ body {
 
 .appbar {
   font-size: 20px;
-  margin: 25px 35px 15px 35px;
+  margin: 25px 36px 15px 35px;
   color: #d93025;
   display: flex;
   align-items: flex-start;
@@ -102,12 +102,62 @@ body {
 
 .appbar label {
   width: 92vw;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 .gray-line {
   width: 100%;
   border-bottom: 1px solid #ebebeb;
+}
+
+form {
+  width: 95%;
+  margin: 2.75em 0 0 35px;
+}
+
+.subtitle {
+  font-size: 16px;
+  margin-bottom: 0.75em;
+}
+
+#upper-search {
+  display: flex;
+  align-items: flex-start;
+}
+
+.row {
+  margin: 12px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.row input {
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  height: 25px;
+  width: 40%;
+  max-width: 570px;
+  min-width: 190px;
+  padding: 1px 8px;
+}
+
+.small-text {
+  color: #222;
+  font-size: 13px;
+  width: 167px;
+}
+
+#small-input{
+  width: 17% ;
+  max-width: 260px;
+  min-width: 70px;
+}
+
+#to{
+  margin:0 1.6em;
+  width: auto;
 }
 
 @media (max-width: 767px) {
