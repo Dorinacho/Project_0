@@ -1,79 +1,75 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0 shrink-to-fit=no"
-    />
-    <meta charset="UTF-8" />
-    <link class="img" rel="shortcut icon" href="./images/title-bar-image.png" />
-    <title>Google Advanced Search</title>
 
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" type="text/css" href="google-advanced-styles.css" />
-  </head>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no" />
+  <meta charset="UTF-8" />
+  <link class="img" rel="shortcut icon" href="./images/title-bar-image.png" />
+  <title>Google Advanced Search</title>
 
-  <body>
-    <div class="top-div">
-      <a id="logo" href="https://www.google.com"
-        ><img src="./images/google.png"
-      /></a>
-      <div id="right-top-div">
-        <div class="top-text">
-          <a href="index.html"> Google </a>
-        </div>
-        <div class="top-images">
-          <input
-            type="image"
-            class="nine-dots"
-            aria-label="Google apps"
-            src="./images/nine-dots.png"
-          />
-          <span></span>
-          <img class="user-image" src="./images/user-icon.png" />
-        </div>
+  <link rel="stylesheet" type="text/css"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="google-advanced-styles.css" />
+</head>
+
+<body>
+  <div class="top-div">
+    <a id="logo" href="https://www.google.com"><img src="./images/google.png" /></a>
+    <div id="right-top-div">
+      <div class="top-text">
+        <a href="index.html"> Google </a>
+      </div>
+      <div class="top-images">
+        <input type="image" class="nine-dots" aria-label="Google apps" src="./images/nine-dots.png" />
+        <span></span>
+        <img class="user-image" src="./images/user-icon.png" />
       </div>
     </div>
+  </div>
 
-    <div class="appbar">
-      <label>Advanced Search</label>
+  <div class="appbar">
+    <label>Advanced Search</label>
+  </div>
+  <div class="gray-line"></div>
+  <form action="https://google.com/search">
+    <div class="upper-search"></div>
+    <div class="row">
+      <div class="subtitle">Find pages with...</div>
+      <div style="width: 40%;
+                max-width: 570px;
+                min-width: 190px;">&nbsp;</div>
+      <div style="font-size: 14px; font-weight: 600; color: grey; margin: 10px;">To do this in the search box.</div>
     </div>
-    <div class="gray-line"></div>
-    <form action="https://google.com/search">
-      <div class="subtitle"><span>Find pages with...</span></div>
-      <div class="upper-search">
-        <div class="row">
-          <div class="small-text">all these words:</div>
-          <input type="text" autofocus="autofocus" name="as_q">
-        </div>
-        <div class="row">
-          <div class="small-text">this exact word or phrase:</div>
-          <input type="text" autofocus="autofocus" name="as_epq">
-        </div>
-        <div class="row">
-          <div class="small-text">any of these words:</div>
-          <input type="text" autofocus="autofocus" name="as_oq">
-        </div>
-        <div class="row">
-          <div class="small-text">none of these words:</div>
-          <input type="text" autofocus="autofocus" name="as_eq">
-        </div>
-        <div class="row">
-          <div class="small-text">none of these words:</div>
-          <input type="text" id="small-input">
-          <div class="small-text" id="to"> to </div>
-          <input type="text" id="small-input">
-        </div>
-        <input type="submit" class="btn btn-light" value="Google Search">
+
+    <div class="row">
+      <div class="small-text">all these words:</div>
+      <input type="text" autofocus="autofocus" name="as_q">
+    </div>
+    <div class="row">
+      <div class="small-text">this exact word or phrase:</div>
+      <input type="text" autofocus="autofocus" name="as_epq">
+    </div>
+    <div class="row">
+      <div class="small-text">any of these words:</div>
+      <input type="text" autofocus="autofocus" name="as_oq">
+    </div>
+    <div class="row">
+      <div class="small-text">none of these words:</div>
+      <input type="text" autofocus="autofocus" name="as_eq">
+    </div>
+    <div class="row">
+      <div class="small-text">numbers ranging from:</div>
+      <div id="numbers-search" >
+        <input type="text" id="small-input">
+        <div class="small-text" id="to"> to </div>
+        <input type="text" id="small-input">
       </div>
-    </form>
-  </body>
+
+    </div>
+    <input type="submit" class="btn btn-light" value="Google Search">
+    </div>
+  </form>
+</body>
+
 </html>

@@ -116,6 +116,7 @@ form {
 }
 
 .subtitle {
+  width: 167px;
   font-size: 16px;
   margin-bottom: 0.75em;
 }
@@ -123,12 +124,14 @@ form {
 #upper-search {
   display: flex;
   align-items: flex-start;
+  width: 10em;
 }
 
 .row {
   margin: 12px 0px;
   display: flex;
-  align-items: center;
+  align-items: baseline;
+  flex-direction: row;
 }
 
 .row input {
@@ -149,14 +152,23 @@ form {
   width: 167px;
 }
 
-#small-input{
-  width: 17% ;
-  max-width: 260px;
-  min-width: 70px;
+#numbers-search {
+  display: flex;
+  flex-direction: row;
+  width: 41.5%;
+  max-width: 586px;
+  min-width: 186px;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
-#to{
-  margin:0 1.6em;
+#small-input {
+  max-width: 255px;
+  min-width: 48px;
+}
+
+#to {
+  margin: 0 1.6em;
   width: auto;
 }
 
