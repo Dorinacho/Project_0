@@ -39,32 +39,52 @@
       <div style="width: 40%;
                 max-width: 570px;
                 min-width: 190px;">&nbsp;</div>
-      <div style="font-size: 14px; font-weight: 600; color: grey; margin: 10px;">To do this in the search box.</div>
+      <div id="to-do" >To do this in the search box.</div>
     </div>
 
     <div class="row">
       <div class="small-text">all these words:</div>
       <input type="text" autofocus="autofocus" name="as_q">
+      <div class="vertical-align">
+        <div class="right-text">Type the important words:<span> tri-colour rat terrier</span></div>
+      </div>
     </div>
     <div class="row">
       <div class="small-text">this exact word or phrase:</div>
       <input type="text" autofocus="autofocus" name="as_epq">
+      <div class="vertical-align">
+        <div class="right-text">Put exact words in quotes:<span> "rat terrier"</span></div>
+      </div>
     </div>
     <div class="row">
       <div class="small-text">any of these words:</div>
       <input type="text" autofocus="autofocus" name="as_oq">
+      <div class="vertical-align">
+        <div class="right-text">Type OR between all the words you want:<span> miniature OR standard</span></div>
+      </div>
+
     </div>
     <div class="row">
       <div class="small-text">none of these words:</div>
       <input type="text" autofocus="autofocus" name="as_eq">
+      <div class="vertical-align">
+        <div class="right-text">Put a minus sign before words that you don't want:<span> -rodent, -"Jack Russell"</span>
+        </div>
+      </div>
+    </div>
     </div>
     <div class="row">
       <div class="small-text">numbers ranging from:</div>
-      <div id="numbers-search" >
+      <div id="numbers-search">
         <input type="text" id="small-input">
         <div class="small-text" id="to"> to </div>
         <input type="text" id="small-input">
       </div>
+      <div class="vertical-align">
+        <div class="right-text">Put two full stops between the numbers and add a unit of measurement:<span> 10..35kg,
+            £300..£500, 2010..2011</span></div>
+      </div>
+
 
     </div>
     <input type="submit" class="btn btn-light" value="Google Search">

@@ -102,7 +102,7 @@ body {
 
 .appbar label {
   width: 92vw;
-  margin-left: 5px;
+  /* margin-left: 5px; */
 }
 
 .gray-line {
@@ -112,13 +112,22 @@ body {
 
 form {
   width: 95%;
-  margin: 2.75em 0 0 35px;
+  margin: 2.75em 0 0 25px;
 }
 
 .subtitle {
   width: 167px;
   font-size: 16px;
   margin-bottom: 0.75em;
+}
+
+#to-do {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  color: grey;
+  margin: 0 18px;
+  width: 500px;
 }
 
 #upper-search {
@@ -172,6 +181,39 @@ form {
   width: auto;
 }
 
+.vertical-align {
+  vertical-align: middle;
+  /* min-width: 160px; */
+  width: 500px;
+}
+
+.right-text {
+  display: inline-block;
+  width: 70%;
+  min-width: 160px;
+  margin: 8px 0 8px 1%;
+  color: #555;
+  font-size: 11px;
+  font-stretch: expanded;
+  padding-left: 5px;
+  vertical-align: middle;
+  position: relative;
+}
+
+.right-text span {
+  color: #666;
+  font-family: monospace;
+  font-size: 11px;
+}
+
+@media (max-width: 1055px) {
+  .right-text {
+    display: none;
+  }
+  #to-do {
+    display: none;
+  }
+}
 @media (max-width: 767px) {
 }
 
