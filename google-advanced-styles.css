@@ -121,7 +121,7 @@ form {
 }
 
 .subtitle {
-  width: 167px;
+  width: 177px;
   font-size: 16px;
   margin-bottom: 0.75em;
 }
@@ -132,7 +132,7 @@ form {
   font-weight: 700;
   color: grey;
   margin: 0 18px;
-  width: 365px;
+  width: 355px;
 }
 
 #upper-search {
@@ -142,7 +142,7 @@ form {
 }
 
 .row {
-  margin: 5px 0px;
+  margin: 3px 0px;
   display: flex;
   align-items: baseline;
   justify-content: space-between;
@@ -165,7 +165,7 @@ form {
 .small-text {
   color: #222;
   font-size: 13px;
-  width: 167px;
+  width: 165px;
 }
 
 #numbers-search {
@@ -198,13 +198,14 @@ form {
   width: 100%;
   min-width: 160px;
   height: 30px;
-  margin: 0 0 8px 1%;
+  margin: 4px 0 4px 1%;
   color: #555;
   font-size: 11px;
   font-stretch: expanded;
   padding-left: 5px;
   vertical-align: middle;
   position: relative;
+  
 }
 
 .right-text span {
@@ -238,9 +239,9 @@ select {
 .select-wrapper {
   display: inline-block;
   min-width: 167px;
-  min-height: 41px;
+  min-height: 27px;
   vertical-align: middle;
-  width: 50%;
+  width: 50.9%;
 }
 
 @media (max-width: 1055px) {
