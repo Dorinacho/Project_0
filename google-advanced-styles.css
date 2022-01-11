@@ -94,7 +94,7 @@ body {
 
 .appbar {
   font-size: 20px;
-  margin: 25px 36px 15px 35px;
+  margin: 25px 36px 15px 15px;
   color: #d93025;
   display: flex;
   align-items: flex-start;
@@ -132,7 +132,7 @@ form {
   font-weight: 700;
   color: grey;
   margin: 0 18px;
-  width: 440px;
+  width: 365px;
 }
 
 #upper-search {
@@ -142,10 +142,12 @@ form {
 }
 
 .row {
-  margin: 12px 0px;
+  margin: 5px 0px;
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
   flex-direction: row;
+  width: 100%;
 }
 
 .row input {
@@ -154,8 +156,8 @@ form {
   border-top: 1px solid #c0c0c0;
   font-size: 13px;
   height: 25px;
-  width: 40%;
-  max-width: 570px;
+  width: 50%;
+  max-width: 572px;
   min-width: 190px;
   padding: 1px 8px;
 }
@@ -169,7 +171,7 @@ form {
 #numbers-search {
   display: flex;
   flex-direction: row;
-  width: 41.5%;
+  width: 52%;
   max-width: 588px;
   min-width: 208px;
   justify-content: space-between;
@@ -188,14 +190,15 @@ form {
 
 .vertical-align {
   vertical-align: middle;
-  width: 450px;
+  width: 365px;
 }
 
 .right-text {
   display: inline-block;
-  width: 70%;
+  width: 100%;
   min-width: 160px;
-  margin: 8px 0 8px 1%;
+  height: 30px;
+  margin: 0 0 8px 1%;
   color: #555;
   font-size: 11px;
   font-stretch: expanded;
@@ -208,6 +211,36 @@ form {
   color: #666;
   font-family: monospace;
   font-size: 11px;
+}
+
+select {
+  width: 100%;
+  height: 29px;
+  margin: 0;
+  text-align:left;
+  text-indent: 4px;
+  border: 1px solid #dcdcdc;
+  color: #444;
+  cursor: default;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 27px;
+  list-style: none;
+  min-width: 46px;
+  outline: none;
+  padding: 0 0 0 6px;
+  text-decoration: none;
+  border-radius: 2px;
+  background-color: #f5f5f5;
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+}
+
+.select-wrapper {
+  display: inline-block;
+  min-width: 167px;
+  min-height: 41px;
+  vertical-align: middle;
+  width: 50%;
 }
 
 @media (max-width: 1055px) {
