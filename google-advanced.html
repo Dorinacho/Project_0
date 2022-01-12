@@ -44,21 +44,21 @@
 
     <div class="row">
       <div class="small-text">all these words:</div>
-      <input type="text" autofocus="autofocus" name="as_q">
+      <input class="inputs" type="text" autofocus="autofocus" name="as_q">
       <div class="vertical-align">
         <div class="right-text">Type the important words:<span> tri-colour rat terrier</span></div>
       </div>
     </div>
     <div class="row">
       <div class="small-text">this exact word or phrase:</div>
-      <input type="text" autofocus="autofocus" name="as_epq">
+      <input class="inputs" type="text" autofocus="autofocus" name="as_epq">
       <div class="vertical-align">
         <div class="right-text">Put exact words in quotes:<span> "rat terrier"</span></div>
       </div>
     </div>
     <div class="row">
       <div class="small-text">any of these words:</div>
-      <input type="text" autofocus="autofocus" name="as_oq">
+      <input class="inputs" type="text" autofocus="autofocus" name="as_oq">
       <div class="vertical-align">
         <div class="right-text">Type OR between all the words you want:<span> miniature OR standard</span></div>
       </div>
@@ -66,7 +66,7 @@
     </div>
     <div class="row">
       <div class="small-text">none of these words:</div>
-      <input type="text" autofocus="autofocus" name="as_eq">
+      <input class="inputs" type="text" autofocus="autofocus" name="as_eq">
       <div class="vertical-align">
         <div class="right-text">Put a minus sign before words that you don't want:<span> -rodent, -"Jack Russell"</span>
         </div>
@@ -76,9 +76,9 @@
     <div class="row">
       <div class="small-text">numbers ranging from:</div>
       <div id="numbers-search">
-        <input type="text" id="small-input">
+        <input class="inputs" type="text" id="small-input">
         <div class="small-text" id="to"> to </div>
-        <input type="text" id="small-input">
+        <input class="inputs" type="text" id="small-input">
       </div>
       <div class="vertical-align">
         <div class="right-text">Put two full stops between the numbers and add a unit of measurement:<span> 10..35kg,
@@ -141,9 +141,10 @@
     </div>
     <div class="row">
       <div class="small-text">site or domain:</div>
-      <input type="text" autofocus="autofocus" style="margin-left: 6px;">
+      <input class="inputs" type="text" autofocus="autofocus" style="margin-left: 6px;">
       <div class="vertical-align">
-        <div class="right-text">Search one site (like <span>wikipedia.org</span> ) or limit your results to a domain like .edu, .org or .gov</div>
+        <div class="right-text">Search one site (like <span>wikipedia.org</span> ) or limit your results to a domain
+          like .edu, .org or .gov</div>
       </div>
     </div>
     <div class="row">
@@ -213,8 +214,58 @@
         <div class="right-text">Find pages that you are free to use yourself.</span></div>
       </div>
     </div>
+    <div class="row">
+      <div class="small-text"></div>
+      <div class="select-wrapper" style="display: flex; justify-content: flex-end; width: 52%;">
+        <input type="submit" id="advanced-search" value="Advanced Search">
+      </div>
+      <div class="vertical-align">
+      </div>
     </div>
+    <div style="margin: 18px 0;
+          clear: both;
+          width: inherit;
+          border-top: 1px solid #ebebeb;"></div>
   </form>
+  <div id="links-div">
+    <div class="subtitle">You can also...</div>
+    <div><a class="links"
+        href="https://support.google.com/websearch/answer/2466433?visit_id=637776021056519595-1503426682&p=adv_pages_similar&hl=en&rd=1">Find
+        pages that are similar to a URL</a></div>
+    <div><a class="links"
+        href="https://support.google.com/websearch/answer/54068?p=adv_pages_visited&hl=en&visit_id=637776021056519595-1503426682&rd=1">Search
+        pages that you've visited</a></div>
+    <div> <a class="links"
+        href="https://support.google.com/websearch/answer/2466433?visit_id=637776021056519595-1503426682&p=adv_operators&hl=en&rd=1">Use
+        operators in the search box</a></div>
+    <div> <a class="links"
+        href="https://support.google.com/websearch/answer/2466433?visit_id=637776021056519595-1503426682&p=adv_operators&hl=en&rd=1">Customise
+        your search settings</a></div>
+
+  </div>
+  <div class="bottom-div">
+
+    <div class="first">
+      <p>
+        Romania
+      </p>
+    </div>
+    <div class="second">
+      <div class="left">
+        <a href="https://support.google.com/websearch/?visit_id=637776021056519595-1503426682&hl=en-RO&rd=2#topic=3378866">
+          Help
+        </a>
+        <a href="https://policies.google.com/privacy?hl=en-RO&fg=1">
+          Privacy
+        </a>
+        <a href="https://policies.google.com/terms?hl=en-RO&fg=1">
+          Terms
+        </a>
+      </div>
+      <div class="right">
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
